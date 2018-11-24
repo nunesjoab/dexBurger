@@ -1,0 +1,42 @@
+{
+	"ingredientes" : [
+		{
+			"nome" : "alface",
+			"preco" : 0.4
+		},
+		{
+			"nome" : "bacon",
+			"preco" : 2.0
+		},
+		{
+			"nome" : "carne",
+			"preco" : 3.0
+		},
+		{
+			"nome" : "ovo",
+			"preco" : 0.8
+		},
+		{
+			"nome" : "queijo",
+			"preco" : 1.5
+		}
+	],
+	"promocoes" : [
+		{
+			"nome" : "light",
+			"descricao" : "Lanche sem bacon e com alface = -10%",
+			"valor" : 0.9
+		},
+		{
+			"nome" : "muita carne",
+			"descricao" : "A cada 3 porções de carne, pague somente 2",
+			"valor" : 3
+		},
+		{
+			"nome" : "muito queijo",
+			"descricao" : "A cada 3 porções de queijo, pague somente 2",
+			"valor" : 3
+		}
+	],
+	"inflacao" : 1
+}
