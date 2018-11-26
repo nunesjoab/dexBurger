@@ -1,11 +1,20 @@
 import React, { Component } from 'react'
 
 export default class Order extends Component {
-  render() {
-	return (
-	  <div>
-			<h2 className="menu__text">PEDIDO</h2>
-	  </div>
-	)
-  }
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            orders: [],
+            total: 0
+        }
+    }
+
+    render() {
+	    return (
+	        <div>
+			            
+	        </div>
+	    )
+    }
 }

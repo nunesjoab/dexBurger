@@ -77,16 +77,53 @@ ul {
 }
 
 .menu__input {
-	border: 1px solid #ae4b45;
+	border: 1px solid #000;
 	border-radius: 4px;
+	color: #ae4b45;
 	float: right;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 500;
 	height: 32px;
 	line-height: 26px;
 	width: 80px;
 }
 
-.menu__input:focus {
-	box-shadow: 1px 1px 1px #ae4b45;
+.offer-active {
+	color: #fff;
+	text-decoration: underline;
+	transition: color .5s ease;
+
+}
+
+.build__control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.label {
+    padding: 10px;
+    font-weight: bold;
+    width: 80px;
+}
+
+.button__finish {
+	background-color: #fff;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.button__finish:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.disabled {
+	cursor: not-allowed;
+}
+
+.disabled:hover {
+	background-color: #fff;
+	color: gray;
 }

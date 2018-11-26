@@ -1,8 +1,7 @@
 .App {
   background-color: #d4cebe;
-
+  box-sizing: border-box;
   min-height: 100vh;
-
   padding: 24px;
 }
 
