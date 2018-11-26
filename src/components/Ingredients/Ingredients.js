@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Aux from '../../hoc/Auxiliar/Auxiliar'
 
-export default class Ingredients extends Component {
-  render() {
+export default (props) => {
 	return (
-	  <Aux>
+	    <Aux>
 			<h2 className="menu__text">Ingredientes<span className="menu__text--right">Valor</span></h2>
 			{
-				this.props.ingredients.map((ingredient, key) => {
+				props.ingredients.map((ingredient, key) => {
 					return (
 						<ul key={key}>
 							<li className="menu__text" >
@@ -17,7 +16,6 @@ export default class Ingredients extends Component {
 					)
 				})
 			}
-	  </Aux>
+	    </Aux>
 	)
-  }
 }

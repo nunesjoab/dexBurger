@@ -32,7 +32,7 @@ export default class Menu extends Component {
 		this.setState({sum: value})
 	}
 
-	calculetesTotalMountedSandwichHandler = (key, amount) => {		
+	calculetesTotalMountedSandwichHandler = (key, amount) => {
 		if(amount === '') {
 			amount = 0
 		}
